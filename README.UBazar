@@ -1,16 +1,4 @@
 # ubzar_ui
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Splash Screen on opening
+![App Opening](https://user-images.githubusercontent.com/96839511/233133970-46f23961-cbe7-4b2f-8cf7-102e6920e673.gif)
