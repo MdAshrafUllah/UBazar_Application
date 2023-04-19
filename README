@@ -1,11 +1,10 @@
-<html>
-<body>
+UBazar Application
 
-<h2>Animated Images</h2>
+Splash Screen
 
-<p>HTML allows moving images:</p>
-
-<img src="https://user-images.githubusercontent.com/96839511/233133970-46f23961-cbe7-4b2f-8cf7-102e6920e673.gif" alt="Computer man" style="width:100px;height:190px;">
-
-</body>
-</html>
+![App Opening](https://user-images.githubusercontent.com/96839511/233136154-b5ea2d9e-e2bd-48d6-b15f-9de3cb3f9d0b.gif)
+![onboarding screen](https://user-images.githubusercontent.com/96839511/233140289-e3bb578c-3f07-4922-ac6f-bf6749b3dd89.gif)
+![home page Cover Slider](https://user-images.githubusercontent.com/96839511/233140249-d2cd831e-ba7a-4145-9eea-da04c913c9e4.gif)
+![Bottom Nevigation bar](https://user-images.githubusercontent.com/96839511/233140629-90a11fe5-7cf6-4bf4-90e3-cd3bbe1fa733.gif)
+![drawer](https://user-images.githubusercontent.com/96839511/233140218-3d4e9987-01cd-4636-ba2b-d93ae880fe6a.gif)
+![App Exit](https://user-images.githubusercontent.com/96839511/233140312-956eefb5-1aed-4f47-ae66-9da4434c1b1e.gif)
