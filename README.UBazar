@@ -1,4 +1,11 @@
-# ubzar_ui
+<html>
+<body>
 
-Splash Screen on opening
-https://user-images.githubusercontent.com/96839511/233133970-46f23961-cbe7-4b2f-8cf7-102e6920e673.gif
+<h2>Animated Images</h2>
+
+<p>HTML allows moving images:</p>
+
+<img src="https://user-images.githubusercontent.com/96839511/233133970-46f23961-cbe7-4b2f-8cf7-102e6920e673.gif" alt="Computer man" style="width:100px;height:190px;">
+
+</body>
+</html>
