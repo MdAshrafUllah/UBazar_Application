@@ -9,18 +9,16 @@ class IntroPage3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: ListView(
+        body: Column(
       children: [
-        SizedBox(height: 25),
-        const Center(
-          child: Text(
-            'Best Quality',
-            style: TextStyle(
-                fontFamily: "Roboto",
-                fontWeight: FontWeight.w400,
-                fontSize: 30,
-                color: Color.fromRGBO(112, 112, 112, 1)),
-          ),
+        SizedBox(height: 60),
+        Text(
+          'Best Quality',
+          style: TextStyle(
+              fontFamily: "Roboto",
+              fontWeight: FontWeight.w400,
+              fontSize: 30,
+              color: Color.fromRGBO(112, 112, 112, 1)),
         ),
         SizedBox(height: 5),
         Row(mainAxisAlignment: MainAxisAlignment.center, children: const [
@@ -43,11 +41,17 @@ class IntroPage3 extends StatelessWidget {
                 color: Color.fromRGBO(112, 112, 112, 1)),
           )
         ]),
-        SizedBox(
-          height: 100,
+        Expanded(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              SvgPicture.asset(
+                "assets/Images/slide 3rd image.svg",
+                fit: BoxFit.scaleDown,
+              ),
+            ],
+          ),
         ),
-        SvgPicture.asset("assets/Images/slide 3rd image.svg",
-            fit: BoxFit.scaleDown),
       ],
     ));
   }

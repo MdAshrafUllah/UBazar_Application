@@ -9,9 +9,9 @@ class IntroPage2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: ListView(
+        body: Column(
       children: [
-        SizedBox(height: 25),
+        SizedBox(height: 60),
         const Center(
           child: Text(
             'Get',
@@ -43,11 +43,17 @@ class IntroPage2 extends StatelessWidget {
                 color: Color.fromRGBO(112, 112, 112, 1)),
           )
         ]),
-        SizedBox(
-          height: 150,
+        Expanded(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              SvgPicture.asset(
+                "assets/Images/slide 2nd image.svg",
+                fit: BoxFit.scaleDown,
+              ),
+            ],
+          ),
         ),
-        SvgPicture.asset("assets/Images/slide 2nd image.svg",
-            fit: BoxFit.scaleDown),
       ],
     ));
   }
