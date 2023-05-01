@@ -1,5 +1,7 @@
 UBazar Application
 
+<h3>In this application, I just built some functional UI for the UBazar application. This was done for a test.</h3>
+
 
 <table style="width:100%">
   <tr>
